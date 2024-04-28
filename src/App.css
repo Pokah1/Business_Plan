@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 30px;
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+}
+
+.prices{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:40px;
+  position:relative;
+  top: -320px;
+  margin:0 10px 0 10px;
+  align-items: center;
+}
+.bg{
+  background-color:#496ca1;
+  padding:40px;
+  height:400px;
+  text-align:center;
+}
+.info{
+  /* color:#fff;
+  font-size:1.1rem */
+}
+.heading, .description{
+  /* text-align:center; */
+  margin: 0 auto;
+max-width:650px;
+color:#fff;
+}
+.heading{
+text-transform:uppercase;
+margin-bottom:10px;
+margin-top:-15px
+}
+.description{
+  text-align:left;
+  font-size:1.1rem;
+}
+
+
+.nothing{
+  color: black;
+  font-size: 4rem;
+  text-align: center; 
+}
