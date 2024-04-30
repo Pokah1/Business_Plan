@@ -3,52 +3,47 @@
   margin: 30px;
   padding: 2rem;
   text-align: center;
-  
 }
 
-ul{
+ul {
   padding: 0;
   list-style: none;
 }
 
-.prices{
+.prices {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap:40px;
-  position:relative;
+  gap: 40px;
+  position: relative;
   top: -320px;
-  margin:0 10px 0 10px;
+  margin: 0 10px 0 10px;
   align-items: center;
 }
-.bg{
-  background-color:#496ca1;
-  padding:40px;
-  height:400px;
-  text-align:center;
+.bg {
+  background-color: #496ca1;
+  padding: 40px;
+  height: 400px;
+  text-align: center;
 }
-.info{
-  /* color:#fff;
-  font-size:1.1rem */
-}
-.heading, .description{
-  /* text-align:center; */
+
+.heading,
+.description {
   margin: 0 auto;
-max-width:650px;
-color:#fff;
+  max-width: 700px;
+  color: #fff;
 }
-.heading{
-text-transform:uppercase;
-margin-bottom:10px;
-margin-top:-15px
+.heading {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: -15px;
 }
-.description{
-  text-align:left;
-  font-size:1.1rem;
+.description {
+  text-align: left;
+  font-size: 0.9rem;
 }
 
-
-.nothing{
+.nothing {
   color: black;
   font-size: 4rem;
-  text-align: center; 
+  text-align: center;
 }
