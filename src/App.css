@@ -47,3 +47,36 @@ ul {
   font-size: 4rem;
   text-align: center;
 }
+@media (max-width: 600px) {
+
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  .bg{
+     width: 40vmax;
+     height: 50vmax;
+     margin: 0 auto;
+ 
+  }
+  .prices {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    position: relative;
+   
+    align-items: center;
+  }
+  .heading,
+.description {
+  margin: 0 auto;
+  max-width: 600px;
+  color: #fff;
+  text-align: center;
+}
+.description {
+  /* text-align: left; */
+  font-size: 1rem;
+  margin-top: 10px;
+}
+}
