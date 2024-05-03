@@ -3,7 +3,6 @@ import "./App.css";
 import PricingCard from "../components/PricingCard/PricingCard";
 import BusinessPlan from "../components/BusinessPlans/BusinessPlan";
 
-
 function App() {
   const showPricingCard = true;
   const cards = [
@@ -37,6 +36,20 @@ function App() {
     },
   ];
 
+  const businessPlan = [
+    {
+      label: "Online Fashion Store",
+      image: "/Images/fashion.jpg",
+      imageAlt: "an team of business workers",
+    },
+
+    {
+      label: "Fitness Studio",
+      image: "/Images/fitness.jpg",
+      imageAlt: "an team of business workers",
+    },
+  ];
+
   return (
     <main>
       <div className="bg">
@@ -67,9 +80,8 @@ function App() {
           ))}
         </div>
       )}
-      <BusinessPlan/>
+      <BusinessPlan />
     </main>
-    
   );
 }
 
