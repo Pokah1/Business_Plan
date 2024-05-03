@@ -11,8 +11,6 @@
 .card:hover {
   --padding-y-hover: 50px; 
   padding: var(--padding-y-hover);
-
-  transform: scale(1.1);
   border: 1.5px solid black;
 
 }
@@ -109,5 +107,18 @@
   font-weight: bold;
   margin-left: 4px;
 }
+
+  @media (max-width: 768px) {
+   
+    .card:hover {
+      /* --padding-y-hover: 50px;  */
+      /* padding: var(--padding-y-hover); */
+      /* border: 1.5px solid black; */
+    
+    }
+  }
+  
+  
+
 
 

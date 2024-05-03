@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import PricingCard from "../components/PricingCard/PricingCard";
-import BusinessPlan from "../components/PricingCard/BusinessPlan";
+import BusinessPlan from "../components/BusinessPlans/BusinessPlan";
 
 
 function App() {
